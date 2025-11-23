@@ -32,8 +32,10 @@ const Hero: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
-              <a 
-                href="https://chrome.google.com/webstore"
+              <a
+                href="https://chromewebstore.google.com/detail/aopjilfeegfaadfalilcnjgehpilnenm"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full sm:w-auto flex items-center justify-center gap-2 bg-brand-blue text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-brand-blue/30 hover:-translate-y-1 transition-all"
               >
                 <Download size={20} />

@@ -5,7 +5,10 @@
       "Bash(npm run dev:*)",
       "Bash(npm run build:*)",
       "Bash(git init:*)",
-      "Bash(git remote add:*)"
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nUpdate download buttons with Chrome Web Store extension URL\n\nUpdated all download buttons to link to the actual Chrome extension:\n- Hero section main CTA button\n- Navbar download button (desktop & mobile)\n- Final CTA section button\n\nAll links now point to: https://chromewebstore.google.com/detail/aopjilfeegfaadfalilcnjgehpilnenm\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []

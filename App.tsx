@@ -57,8 +57,10 @@ function App() {
               Join 1000+ guru yang sudah jimat masa dengan MOEIS Kehadiran Helper.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a 
-                href="https://chrome.google.com/webstore" 
+              <a
+                href="https://chromewebstore.google.com/detail/aopjilfeegfaadfalilcnjgehpilnenm"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white text-brand-blue px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl hover:bg-gray-50 transition-all flex items-center justify-center gap-2"
               >
                 <Download size={20} />

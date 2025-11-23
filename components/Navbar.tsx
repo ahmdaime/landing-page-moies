@@ -45,8 +45,8 @@ const Navbar: React.FC = () => {
               {link.name}
             </a>
           ))}
-          <a 
-            href="https://chrome.google.com/webstore" 
+          <a
+            href="https://chromewebstore.google.com/detail/aopjilfeegfaadfalilcnjgehpilnenm"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-brand-blue text-white px-5 py-2 rounded-full font-medium hover:bg-brand-dark transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
@@ -80,8 +80,10 @@ const Navbar: React.FC = () => {
                 {link.name}
               </a>
             ))}
-            <a 
-              href="https://chrome.google.com/webstore" 
+            <a
+              href="https://chromewebstore.google.com/detail/aopjilfeegfaadfalilcnjgehpilnenm"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-brand-blue text-white px-4 py-3 rounded-lg font-bold text-center flex items-center justify-center gap-2"
             >
               <Download size={18} />
