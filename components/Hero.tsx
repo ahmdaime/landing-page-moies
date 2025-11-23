@@ -24,11 +24,11 @@ const Hero: React.FC = () => {
             </div>
             
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
-              Jimat <span className="text-brand-blue">28 Minit</span> Setiap Hari Dengan Automasi Kehadiran MOEIS
+              Jimat <span className="text-brand-blue">10 Minit</span> Setiap Hari Dengan Automasi Kehadiran MOEIS
             </h1>
             
             <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-              Chrome extension khas untuk guru Malaysia. Copy mesej WhatsApp, auto-fill sistem MOEIS. <span className="font-semibold text-gray-800">30 minit → 2 minit.</span> Mudah, pantas, dan tepat.
+              Chrome extension khas untuk guru Malaysia. Copy mesej WhatsApp, auto-fill sistem MOEIS. <span className="font-semibold text-gray-800">10 minit → 2 minit.</span> Mudah, pantas, dan tepat.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
