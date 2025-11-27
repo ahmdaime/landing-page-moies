@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProblemSolution from './components/ProblemSolution';
 import HowItWorks from './components/HowItWorks';
+import WhatsAppTemplate from './components/WhatsAppTemplate';
 import Features from './components/Features';
 import Comparison from './components/Comparison';
 import Pricing from './components/Pricing';
@@ -23,6 +24,7 @@ function App() {
         <Hero />
         <ProblemSolution />
         <HowItWorks />
+        <WhatsAppTemplate />
         <Features />
         <Comparison />
         <Pricing onOpenPaymentModal={() => setIsPaymentModalOpen(true)} />
