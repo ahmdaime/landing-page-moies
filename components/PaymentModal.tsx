@@ -72,7 +72,7 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ isOpen, onClose }) => {
 
     try {
       await submitPurchase({
-        productSlug: 'moies-kehadiran-helper',
+        productSlug: 'moeis-kehadiran',
         customerName: formData.fullName.trim(),
         customerEmail: formData.email.trim(),
         customerPhone: formData.phone.trim() || undefined,
