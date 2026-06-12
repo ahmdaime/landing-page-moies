@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://portfolio.cikguaime.com/moies-kehadiran-helper",
+      "permanent": true
+    }
+  ]
+}
